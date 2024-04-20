@@ -1,5 +1,6 @@
 package reladder.domain;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,6 +22,10 @@ public class Line {
     public void lastLineEnded() {
         int lastIndex = this.points.size() - 1;
         this.points.get(lastIndex).end();
+    }
+
+    public List<Point> getPoints() {
+        return Collections.unmodifiableList(this.points);
     }
 
     @Override
