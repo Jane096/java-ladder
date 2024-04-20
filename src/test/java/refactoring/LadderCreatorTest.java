@@ -14,7 +14,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LadderGeneratorTest {
+public class LadderCreatorTest {
 
     @ParameterizedTest
     @CsvSource(value = {"5:2", "4:3", "7:3", "8:4"}, delimiter = ':')
