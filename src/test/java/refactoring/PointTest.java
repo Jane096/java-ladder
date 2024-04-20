@@ -3,11 +3,9 @@ package refactoring;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import refactoring.model.*;
-import refactoring.strategy.PointRandomStrategy;
-import refactoring.testStrategy.PointTrueStrategy;
+import refactoring.model.Direction;
+import refactoring.model.Point;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
